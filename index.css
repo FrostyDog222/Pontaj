@@ -1,0 +1,66 @@
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 7% auto;
+    text-align: center;
+    padding: 3em;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow:  0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 4em;
+    text-shadow: 1px 1px 2px black;
+    margin: 0 0 .4em 0;
+}
+
+input {
+    width: 100%;
+    font-size: 1.4em;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    padding: .4em 0;
+    background: none;
+}
+
+input:focus {
+    outline: 1px solid #fff;
+}
+
+
+#pontajBtn {
+    color: #fff;
+    font-size: 4em;
+    text-shadow: 1px 1px 2px black;
+    margin: 1em 0 ;
+    width: 100%;
+    padding: .7em 0;
+    font-size: 1.7em;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+#pontajBtn:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+#pontajBtn:active{
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 0 5px rgba(97, 96, 96, 0.5);
+    transform: translateY(4px);
+}
